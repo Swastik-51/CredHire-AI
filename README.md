@@ -13,7 +13,7 @@ CredHire AI is a machine learning-based system that detects **fraudulent job pos
 
 🔗 **Live App**: [Streamlit Dashboard](https://cred-hire-ai.streamlit.app/)  
 📡 **API Endpoint**: [FastAPI on Render](https://credihireai.onrender.com)  
-🎥 **Demo Video**: [YouTube Demo](https://youtu.be/9lRWjJRMa6E)
+🎥 **Demo Video**: [YouTube Demo](https://www.youtube.com/watch?v=udcUTncoGqA)
 
 ## 🎯 Key Features
 - **Binary Classification Model**: Predicts whether a job posting is genuine or fraudulent
@@ -156,7 +156,7 @@ CredHireAI/
 
 
 ## 🎥 Demo Video
-https://youtu.be/9lRWjJRMa6E
+https://www.youtube.com/watch?v=udcUTncoGqA
 
 ## Working app
 https://cred-hire-ai.streamlit.app/
