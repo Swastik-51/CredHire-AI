@@ -7,3 +7,4 @@ nltk
 xgboost
 scikit-learn
 joblib
+shap
