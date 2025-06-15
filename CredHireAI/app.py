@@ -7,6 +7,8 @@ from utils.email_sender import send_fraud_report
 from sections.sidebar import sidebar
 from sections.dashboard import show_dashboard
 from sections.custom_input import custom_input
+import joblib
+
 # from sections.api_server import start_api_server  # Optional
 
 # ---------------------- Page Config ----------------------
