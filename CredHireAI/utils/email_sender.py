@@ -16,7 +16,7 @@ def send_fraud_report(df, user_email):
     <h3>Dear User,</h3>
     <p>Here are the job listings flagged as <b>fraudulent</b>:</p>
     {html_table}
-    <p>Stay safe,<br><b>FraudScan</b></p>
+    <p>Stay safe,<br><b>Team CrediHire</b></p>
     """
     msg.attach(MIMEText(body, 'html'))
 
