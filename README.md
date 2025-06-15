@@ -66,8 +66,8 @@ We selected the Random Forest Classifier as our production model due to its supe
 ### Installation Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Swastik-51/credhire-ai.git
-   cd credhire-ai
+   git clone https://github.com/Swastik-51/CredHire-AI.git
+   cd CredHire-AI
    ```
 
 2. Create and activate a virtual environment:
