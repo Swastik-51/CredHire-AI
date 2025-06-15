@@ -155,7 +155,7 @@ response = requests.post('http://localhost:5000/analyze',
 ```
 
 ## 🎥 Demo Video
-[Link to your 5-7 minute demo video]
+https://youtu.be/9lRWjJRMa6E
 
 ## 👥 Team Members
 - Swastik Sengupta - Team Lead
