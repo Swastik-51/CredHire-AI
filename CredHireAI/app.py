@@ -20,8 +20,8 @@ MODEL_DIR = os.path.join(os.path.dirname(__file__), "models")
 
 @st.cache_resource
 def load_resources():
-    vectorizer = joblib.load(os.path.join(MODEL_DIR, "ahirr_vectorizer.pkl"))
-    model = joblib.load(os.path.join(MODEL_DIR, "ahirr_model.pkl"))
+    vectorizer = joblib.load(os.path.join(MODEL_DIR, "vectorizer.pkl"))
+    model = joblib.load(os.path.join(MODEL_DIR, "model.pkl"))
     return vectorizer, model
 
 vectorizer, model = load_resources()
