@@ -136,26 +136,18 @@ CredHireAI/
 ├── models/
 │   ├── model.pkl
 │   └── ectorizer.pkl
-├── jupyter notebooks/
+├── jupyter notebook/
 │   └── Fraud_Detection_final.ipynb
 ├── requirements.txt
 ```
-- All model training, evaluation, and comparison details are available in the `notebooks/` folder.
+- All model training, evaluation, and comparison details are available in the `jupyter notebook/` folder.
 
-## 🔄 API Usage
-The system provides a REST API for real-time job posting analysis:
-
-```python
-import requests
-
-response = requests.post('http://localhost:5000/analyze', 
-    json={'job_title': 'Software Engineer',
-          'description': 'Job description...',
-          'location': 'New York'})
-```
 
 ## 🎥 Demo Video
 https://youtu.be/9lRWjJRMa6E
+
+## Working app
+https://cred-hire-ai.streamlit.app/
 
 ## 👥 Team Members
 - Swastik Sengupta - Team Lead
