@@ -9,10 +9,29 @@ from sections.dashboard import show_dashboard
 from sections.custom_input import custom_input
 # from sections.api_server import start_api_server  # Optional
 
-set_page()
-vectorizer, model = load_resources()
-uploaded_file = sidebar()
+# ---------------------- Page Config ----------------------
+st.set_page_config(page_title="CrediHireAI - Job Scam Detector", layout="wide")
+st.title("CrediHire AI – Credible hiring through AI.")
+st.markdown("### Your AI-powered shield against job scams. Apply with confidence!")
 
+# ---------------------- Load Model + Vectorizer ----------------------
+import os
+MODEL_DIR = os.path.join(os.path.dirname(__file__), "models")
+
+@st.cache_resource
+def load_resources():
+    vectorizer = joblib.load(os.path.join(MODEL_DIR, "ahirr_vectorizer.pkl"))
+    model = joblib.load(os.path.join(MODEL_DIR, "ahirr_model.pkl"))
+    return vectorizer, model
+
+vectorizer, model = load_resources()
+# ---------------------- Sidebar ----------------------
+with st.sidebar:
+    st.title("Upload Job Listings")
+    uploaded_file = st.file_uploader("Choose CSV File", type=["csv"])
+    st.markdown("---")
+    st.caption("Built by Ahir Barman Maji and Swastik Sengupta")
+# ---------------------- CSV-Based Analysis ----------------------
 if uploaded_file:
     import pandas as pd
     df = pd.read_csv(uploaded_file)
