@@ -66,7 +66,7 @@ We selected the Random Forest Classifier as our production model due to its supe
 ### Installation Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/credhire-ai.git
+   git clone https://github.com/Swastik-51/credhire-ai.git
    cd credhire-ai
    ```
 
@@ -168,4 +168,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📧 Contact
-For any queries, please reach out to [Your Email]
+For any queries, please reach out to swastik724@gmail.com
