@@ -1,3 +1,4 @@
+joblib
 streamlit
 pandas
 numpy
@@ -6,6 +7,5 @@ seaborn
 nltk
 xgboost
 scikit-learn
-joblib
 shap
 plotly
